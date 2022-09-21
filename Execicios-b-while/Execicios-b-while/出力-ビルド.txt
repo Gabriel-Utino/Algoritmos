@@ -1,0 +1,4 @@
+﻿ビルドを開始しました...
+1>------ ビルド開始: プロジェクト: Execicios-b-while, 構成: Debug Any CPU ------
+1>  Execicios-b-while -> D:\university\Algoritimo\Algoritmos\Execicios-b-while\Execicios-b-while\bin\Debug\Execicios-b-while.exe
+========== ビルド: 成功 1、失敗 0、最新の状態 0、スキップ 0 ==========

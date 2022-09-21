@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicios_a_while
+namespace Execicios_c_while
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Exercícios :Apresentar todos os valores numéricos inteiros impares situados nafaixa de 0 a 20.
-            int i = 0;
-            while (i <= 20)
+            //Apresentar todos os números divisíveis por 4 que sejam menores que 30.Iniciar a contagem com o valor 1(um).
+            int i=1;
+            while (i <= 30)
             {
-                if (i % 2 == 1)
+                if(i%4 == 0)
                 {
                     Console.WriteLine(i);
                 }

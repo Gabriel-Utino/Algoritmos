@@ -1,0 +1,8 @@
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\bin\Debug\Execicios-c-for.exe.config
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\bin\Debug\Execicios-c-for.exe
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\bin\Debug\Execicios-c-for.pdb
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\obj\Debug\Execicios-c-for.csproj.AssemblyReference.cache
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\obj\Debug\Execicios-c-for.csproj.SuggestedBindingRedirects.cache
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\obj\Debug\Execicios-c-for.csproj.CoreCompileInputs.cache
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\obj\Debug\Execicios-c-for.exe
+D:\university\Algoritimo\Algoritmos\Execicios-c-for\Execicios-c-for\obj\Debug\Execicios-c-for.pdb

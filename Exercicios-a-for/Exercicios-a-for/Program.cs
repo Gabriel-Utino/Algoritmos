@@ -4,21 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicios_a_while
+namespace Exercicios_a_for
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Exercícios :Apresentar todos os valores numéricos inteiros impares situados nafaixa de 0 a 20.
-            int i = 0;
-            while (i <= 20)
+            for(int i=0; i<=20; i++)
             {
                 if (i % 2 == 1)
                 {
                     Console.WriteLine(i);
                 }
-                i++;
             }
         }
     }
