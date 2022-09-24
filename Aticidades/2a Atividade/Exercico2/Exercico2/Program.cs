@@ -10,13 +10,17 @@ namespace Exercico2
     {
         static void Main(string[] args)
         {
-            int i = 0, totalprice;
-            double[] guest = new double[150];
-            while (i <= 3)
+            int i = 0, totalprice = 0;
+            int price = 0;
+
+            while (i < 150)
             {
-                Console.WriteLine("");
-                totalprice = int.Parse(Console.ReadLine());
+                Console.Write("qunto você gastou :");
+                price = int.Parse(Console.ReadLine());
+                totalprice = totalprice + price;
+                i++;
             }
+            Console.WriteLine("receita total :" + totalprice);
         }
     }
 }
