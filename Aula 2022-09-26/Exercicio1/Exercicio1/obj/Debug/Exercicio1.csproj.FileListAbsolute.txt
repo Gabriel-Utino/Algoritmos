@@ -1,0 +1,6 @@
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exercicio1\Exercicio1\bin\Debug\Exercicio1.exe.config
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exercicio1\Exercicio1\bin\Debug\Exercicio1.exe
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exercicio1\Exercicio1\bin\Debug\Exercicio1.pdb
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exercicio1\Exercicio1\obj\Debug\Exercicio1.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exercicio1\Exercicio1\obj\Debug\Exercicio1.exe
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exercicio1\Exercicio1\obj\Debug\Exercicio1.pdb

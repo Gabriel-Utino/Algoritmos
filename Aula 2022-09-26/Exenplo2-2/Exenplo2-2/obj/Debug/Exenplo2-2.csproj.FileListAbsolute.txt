@@ -1,0 +1,6 @@
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exenplo2-2\Exenplo2-2\bin\Debug\Exenplo2-2.exe.config
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exenplo2-2\Exenplo2-2\bin\Debug\Exenplo2-2.exe
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exenplo2-2\Exenplo2-2\bin\Debug\Exenplo2-2.pdb
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exenplo2-2\Exenplo2-2\obj\Debug\Exenplo2-2.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exenplo2-2\Exenplo2-2\obj\Debug\Exenplo2-2.exe
+C:\Users\gabriel.utino_uscson\source\repos\2022-09-26\Exenplo2-2\Exenplo2-2\obj\Debug\Exenplo2-2.pdb
