@@ -10,29 +10,55 @@ namespace Exercico4
     {
         static void Main(string[] args)
         {
-            int gender, i = 0, age, allAge = 0, height, allHeight = 0 ,
-                woman = 0, male = 0, population = 1000;
-            double averageAge, averageHeight;
+            int gender, i = 0, maleHeight, womanHeight, woman = 0, maleAge, womanAge,
+                womanAllAge = 0, male = 0, maleAllAge = 0, womanAllHeight = 0, 
+                maleAllHeight = 0, population = 1000;
+            double averageAge, averageWomanHeight, averageMaleAge, percentAge18to35,
+                countAge = 0;
+            int[] arrayAge = new int[population];
             while (i< population)
             {
-                Console.WriteLine("sexo 1-feminino 2-masculino :");
+                Console.WriteLine("sexo 0-feminino 1-masculino :");
                 gender = int.Parse(Console.ReadLine());
-                if(gender == 1)
+                if(gender == 0)
                 {
                     woman = woman + 1;
+                    Console.WriteLine("digite sua idade :");
+                    womanAge = int.Parse(Console.ReadLine());
+                    womanAllAge = womanAllAge + womanAge;
+                    arrayAge[i] = womanAge;
+                    Console.WriteLine("sua altura :");
+                    womanHeight = int.Parse(Console.ReadLine());
+                    womanAllHeight = womanAllHeight + womanHeight;
                 } else
                 {
                     male = male + 1;
+                    Console.WriteLine("digite sua idade :");
+                    maleAge = int.Parse(Console.ReadLine());
+                    maleAllAge = maleAllAge + maleAge;
+                    arrayAge[i] = maleAge;
+                    Console.WriteLine("sua altura :");
+                    maleHeight = int.Parse(Console.ReadLine());
+                    maleAllHeight = maleAllHeight + maleHeight;
                 }
-                Console.WriteLine("digite sua idade :");
-                age = int.Parse(Console.ReadLine());
-                allAge = allAge + age;
-                Console.WriteLine("sua altura :");
-                height = int.Parse(Console.ReadLine());
-                allHeight = allHeight + height;
+                i++;
             }
-            averageAge = allAge / population;
-            averageHeight = allAge / population;
+            averageAge = (womanAllAge + maleAllAge) / population;
+            Console.WriteLine("média da idade do grupo :" + averageAge);
+            averageWomanHeight = womanAllHeight / woman;
+            Console.WriteLine("média da altura das mulheres :" + averageWomanHeight);
+            averageMaleAge = maleAllAge / male;
+            Console.WriteLine("média da idade dos homens :" + averageMaleAge);
+            foreach (int eachAge in arrayAge)
+            {
+                if(eachAge >= 18 && eachAge <= 35)
+                {
+                    countAge++;
+                }
+            }
+            Console.WriteLine(countAge + " otameshi " + population);
+            percentAge18to35 = (countAge / population) * 100;
+            Console.WriteLine("percentual de pessoas com idade entre 18 e 35 anos :" + Math.Floor(percentAge18to35));
         }
     }
 }
