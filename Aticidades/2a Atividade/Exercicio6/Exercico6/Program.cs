@@ -10,14 +10,17 @@ namespace Exercico6
     {
         static void Main(string[] args)
         {
-            int X, Y;
+            int x, y, soma;
             int[] vetor = new int[8];
             for(int i=0; i<8; i++)
             {
+                Console.Write("degite um numero:");
                 vetor[i] = int.Parse(Console.ReadLine());
             }
-            X = int.Parse(Console.ReadLine());
-            Y = int.Parse(Console.ReadLine());
+            x = int.Parse(Console.ReadLine());
+            y = int.Parse(Console.ReadLine());
+            soma = vetor[x-1] + vetor[y-1];
+            Console.WriteLine("soma :" + soma);
         }
     }
 }
