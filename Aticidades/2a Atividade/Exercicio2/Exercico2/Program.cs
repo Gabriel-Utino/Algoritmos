@@ -15,7 +15,7 @@ namespace Exercico2
 
             while (i < 150)
             {
-                Console.Write("qunto você gastou :");
+                Console.Write("quanto você gastou :");
                 price = int.Parse(Console.ReadLine());
                 totalprice = totalprice + price;
                 i++;

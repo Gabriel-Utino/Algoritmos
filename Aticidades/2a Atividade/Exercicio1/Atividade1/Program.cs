@@ -18,7 +18,7 @@ namespace Atividade1
             var negative = new List<double>();
             while (i < 10)
             {
-                Console.Write("degite numero :");
+                Console.Write("digite numero :");
                 array[i] = double.Parse(Console.ReadLine());
                 if (array[i] < 0)
                 {

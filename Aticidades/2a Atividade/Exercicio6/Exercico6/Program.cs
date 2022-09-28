@@ -14,10 +14,12 @@ namespace Exercico6
             int[] vetor = new int[8];
             for(int i=0; i<8; i++)
             {
-                Console.Write("degite um numero:");
+                Console.Write("digite um numero :");
                 vetor[i] = int.Parse(Console.ReadLine());
             }
+            Console.Write("digite um numero do X:");
             x = int.Parse(Console.ReadLine());
+            Console.Write("digite um numero do Y:");
             y = int.Parse(Console.ReadLine());
             soma = vetor[x-1] + vetor[y-1];
             Console.WriteLine("soma :" + soma);

@@ -10,10 +10,10 @@ namespace Exercico4
     {
         static void Main(string[] args)
         {
-            int gender, i = 0, maleHeight, womanHeight, woman = 0, maleAge, womanAge,
-                womanAllAge = 0, male = 0, maleAllAge = 0, womanAllHeight = 0, 
-                maleAllHeight = 0, population = 1000;
-            double averageAge, averageWomanHeight, averageMaleAge, percentAge18to35,
+            int gender, i = 0, maleHeight, femaleHeight, man = 0, woman = 0,
+                maleAge, femaleAge, femaleAllAge = 0, maleAllAge = 0,
+                femaleAllHeight = 0, maleAllHeight = 0, population = 1000;
+            double averageAge, averageFemaleHeight, averageMaleAge, percentAge18to35,
                 countAge = 0;
             int[] arrayAge = new int[population];
             while (i< population)
@@ -24,15 +24,15 @@ namespace Exercico4
                 {
                     woman = woman + 1;
                     Console.WriteLine("digite sua idade :");
-                    womanAge = int.Parse(Console.ReadLine());
-                    womanAllAge = womanAllAge + womanAge;
-                    arrayAge[i] = womanAge;
+                    femaleAge = int.Parse(Console.ReadLine());
+                    femaleAllAge = femaleAllAge + femaleAge;
+                    arrayAge[i] = femaleAge;
                     Console.WriteLine("sua altura :");
-                    womanHeight = int.Parse(Console.ReadLine());
-                    womanAllHeight = womanAllHeight + womanHeight;
+                    femaleHeight = int.Parse(Console.ReadLine());
+                    femaleAllHeight = femaleAllHeight + femaleHeight;
                 } else
                 {
-                    male = male + 1;
+                    man = man + 1;
                     Console.WriteLine("digite sua idade :");
                     maleAge = int.Parse(Console.ReadLine());
                     maleAllAge = maleAllAge + maleAge;
@@ -43,11 +43,11 @@ namespace Exercico4
                 }
                 i++;
             }
-            averageAge = (womanAllAge + maleAllAge) / population;
+            averageAge = (femaleAllAge + maleAllAge) / population;
             Console.WriteLine("média da idade do grupo :" + averageAge);
-            averageWomanHeight = womanAllHeight / woman;
-            Console.WriteLine("média da altura das mulheres :" + averageWomanHeight);
-            averageMaleAge = maleAllAge / male;
+            averageFemaleHeight = femaleAllHeight / woman;
+            Console.WriteLine("média da altura das mulheres :" + averageFemaleHeight);
+            averageMaleAge = maleAllAge / woman;
             Console.WriteLine("média da idade dos homens :" + averageMaleAge);
             foreach (int eachAge in arrayAge)
             {
