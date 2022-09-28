@@ -18,26 +18,26 @@ namespace Exercico4
             int[] arrayAge = new int[population];
             while (i< population)
             {
-                Console.WriteLine("sexo 0-feminino 1-masculino :");
+                Console.Write("sexo 0-feminino 1-masculino :");
                 gender = int.Parse(Console.ReadLine());
                 if(gender == 0)
                 {
                     woman = woman + 1;
-                    Console.WriteLine("digite sua idade :");
+                    Console.Write("digite sua idade :");
                     femaleAge = int.Parse(Console.ReadLine());
                     femaleAllAge = femaleAllAge + femaleAge;
                     arrayAge[i] = femaleAge;
-                    Console.WriteLine("sua altura :");
+                    Console.Write("sua altura :");
                     femaleHeight = int.Parse(Console.ReadLine());
                     femaleAllHeight = femaleAllHeight + femaleHeight;
                 } else
                 {
                     man = man + 1;
-                    Console.WriteLine("digite sua idade :");
+                    Console.Write("digite sua idade :");
                     maleAge = int.Parse(Console.ReadLine());
                     maleAllAge = maleAllAge + maleAge;
                     arrayAge[i] = maleAge;
-                    Console.WriteLine("sua altura :");
+                    Console.Write("sua altura :");
                     maleHeight = int.Parse(Console.ReadLine());
                     maleAllHeight = maleAllHeight + maleHeight;
                 }
