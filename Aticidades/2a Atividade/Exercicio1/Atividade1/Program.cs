@@ -13,7 +13,7 @@ namespace Atividade1
             /*Dados: 10 números digitados pelo usuário. Construa algoritmo para mostrar os
             valores negativos e que calcule e mostre a média dos valores menores que zero.*/
             int i = 0;
-            double average = 0;
+            double average = 0, all = 0;
             double[] array = new double[10];
             var negative = new List<double>();
             while (i < 10)
@@ -24,16 +24,16 @@ namespace Atividade1
                 {
                     negative.Add(array[i]);
                 }
-                average = average + array[i];
+                all = all + array[i];
                 i++;
             }
-            average = average / 10;
-            Console.Write("valores negativos :");
+            average = all / 10;
+            Console.WriteLine("valores negativos");
             foreach (var str in negative)
             {
-                Console.Write(str);
+                Console.WriteLine(str);
             }
-            Console.WriteLine("\nmedia dos valores :" + average);
+            Console.WriteLine("media dos valores :" + average);
         }
     }
 }
