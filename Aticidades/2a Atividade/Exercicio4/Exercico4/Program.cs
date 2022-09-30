@@ -47,7 +47,7 @@ namespace Exercico4
             Console.WriteLine("média da idade do grupo :" + averageAge);
             averageFemaleHeight = femaleAllHeight / woman;
             Console.WriteLine("média da altura das mulheres :" + averageFemaleHeight);
-            averageMaleAge = maleAllAge / woman;
+            averageMaleAge = maleAllAge / man;
             Console.WriteLine("média da idade dos homens :" + averageMaleAge);
             foreach (int eachAge in arrayAge)
             {
@@ -56,7 +56,6 @@ namespace Exercico4
                     countAge++;
                 }
             }
-            Console.WriteLine(countAge + " otameshi " + population);
             percentAge18to35 = (countAge / population) * 100;
             Console.WriteLine("percentual de pessoas com idade entre 18 e 35 anos :" + Math.Floor(percentAge18to35));
         }
