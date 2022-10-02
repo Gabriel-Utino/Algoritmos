@@ -12,8 +12,8 @@ namespace Atividade1
         {
             /*Dados: 10 números digitados pelo usuário. Construa algoritmo para mostrar os
             valores negativos e que calcule e mostre a média dos valores menores que zero.*/
-            int i = 0;
-            double average = 0, all = 0, count = 0;
+            int i = 0, count = 0;
+            double average = 0, all = 0;
             double[] array = new double[10];
             var negative = new List<double>();
             while (i < 10)
