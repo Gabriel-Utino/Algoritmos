@@ -1,0 +1,8 @@
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\bin\Debug\Execicio4.exe.config
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\bin\Debug\Execicio4.exe
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\bin\Debug\Execicio4.pdb
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\obj\Debug\Execicio4.csproj.AssemblyReference.cache
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\obj\Debug\Execicio4.csproj.SuggestedBindingRedirects.cache
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\obj\Debug\Execicio4.csproj.CoreCompileInputs.cache
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\obj\Debug\Execicio4.exe
+D:\university\Algoritmos\Aula 2022-10-04\Execicio4\Execicio4\obj\Debug\Execicio4.pdb

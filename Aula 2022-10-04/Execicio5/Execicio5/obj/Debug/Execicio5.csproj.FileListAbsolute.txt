@@ -1,0 +1,8 @@
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\bin\Debug\Execicio5.exe.config
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\bin\Debug\Execicio5.exe
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\bin\Debug\Execicio5.pdb
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\obj\Debug\Execicio5.csproj.AssemblyReference.cache
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\obj\Debug\Execicio5.csproj.SuggestedBindingRedirects.cache
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\obj\Debug\Execicio5.csproj.CoreCompileInputs.cache
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\obj\Debug\Execicio5.exe
+D:\university\Algoritmos\Aula 2022-10-04\Execicio5\Execicio5\obj\Debug\Execicio5.pdb

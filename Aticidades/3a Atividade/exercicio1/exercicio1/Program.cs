@@ -10,15 +10,35 @@ namespace exercicio1
     {
         static void Main(string[] args)
         {
-            double[] array = new double[10];
+            int count = 0;
+            var str = new List<int>();
+            int[] array = new int[10];
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write("digite um numero :");
-                array[i] = double.Parse(Console.ReadLine());
+                array[i] = int.Parse(Console.ReadLine());
             }
             for (int i = 0; i < array.Length; i++)
             {
-                if(array[i] == )
+                for(int e=0; e < 10; e++)
+                {
+                    if(i != e && array[i] == array[e])
+                    {
+                        count++;
+                        str.Add(array[i]);
+                    }
+                }
+            }
+            if(count == 0)
+            {
+                Console.WriteLine("Nenhum");
+            } else
+            {
+                Console.WriteLine("existem valores iguais :");
+                for(int i = 0; i < count/2; i++)
+                {
+                    Console.WriteLine(str[i]);
+                }
             }
         }
     }

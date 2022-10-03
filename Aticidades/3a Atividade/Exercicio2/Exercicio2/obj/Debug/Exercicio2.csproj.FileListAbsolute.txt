@@ -1,0 +1,8 @@
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe.config
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\bin\Debug\Exercicio2.pdb
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.AssemblyReference.cache
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.SuggestedBindingRedirects.cache
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\obj\Debug\Exercicio2.csproj.CoreCompileInputs.cache
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\obj\Debug\Exercicio2.exe
+D:\university\Algoritmos\Aticidades\3a Atividade\Exercicio2\Exercicio2\obj\Debug\Exercicio2.pdb
