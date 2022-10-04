@@ -11,7 +11,7 @@ namespace exercicio1
         static void Main(string[] args)
         {
             int count = 0;
-            var str = new List<int>();
+            var list = new List<int>();
             int[] array = new int[10];
             for (int i = 0; i < array.Length; i++)
             {
@@ -25,7 +25,7 @@ namespace exercicio1
                     if(i != e && array[i] == array[e])
                     {
                         count++;
-                        str.Add(array[i]);
+                        list.Add(array[i]);
                     }
                 }
             }
@@ -37,7 +37,7 @@ namespace exercicio1
                 Console.WriteLine("existem valores iguais :");
                 for(int i = 0; i < count/2; i++)
                 {
-                    Console.WriteLine(str[i]);
+                    Console.WriteLine(list[i]);
                 }
             }
         }

@@ -10,6 +10,17 @@ namespace execicio3
     {
         static void Main(string[] args)
         {
+            double celsius, f;
+            Console.Write("Celsius :");
+            celsius = double.Parse(Console.ReadLine());
+            f = converTemp(celsius);
+            Console.WriteLine("Fahrenheit :{0}", f);
+        }
+        public static double converTemp(double c)
+        {
+            double f;
+            f = (9 * c + 160) / 5;
+            return f;
         }
     }
 }
