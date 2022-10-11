@@ -1,0 +1,8 @@
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\bin\Debug\exercicio5.exe.config
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\bin\Debug\exercicio5.exe
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\bin\Debug\exercicio5.pdb
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\obj\Debug\exercicio5.csproj.AssemblyReference.cache
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\obj\Debug\exercicio5.csproj.SuggestedBindingRedirects.cache
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\obj\Debug\exercicio5.csproj.CoreCompileInputs.cache
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\obj\Debug\exercicio5.exe
+D:\university\Algoritmos\Atividades\4a Atividade\exercicio5\exercicio5\obj\Debug\exercicio5.pdb
