@@ -10,6 +10,9 @@ namespace exercicio3
     {
         static void Main(string[] args)
         {
+            /* Gabriel Casimiro Utino  
+             * ADS  
+             * turma 315-01AM */
             uint[] arrayQ = new uint[10];
             uint max;
             int element;

@@ -10,6 +10,9 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {
+            /* Gabriel Casimiro Utino  
+             * ADS  
+             * turma 315-01AM */
             int alunos = 0;
             double media, total = 0;
             int[] notas = new int[10];

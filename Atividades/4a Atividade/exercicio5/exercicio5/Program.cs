@@ -10,6 +10,9 @@ namespace exercicio5
     {
         static void Main(string[] args)
         {
+            /* Gabriel Casimiro Utino  
+             * ADS  
+             * turma 315-01AM */
             double[] arrayA = new double[10];
             double[] arrayM = new double[10];
             double x;

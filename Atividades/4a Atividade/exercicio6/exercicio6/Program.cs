@@ -10,6 +10,9 @@ namespace exercicio6
     {
         static void Main(string[] args)
         {
+            /* Gabriel Casimiro Utino  
+             * ADS  
+             * turma 315-01AM */
             double[] array = new double[10];
             for(int i = 0; i < array.Length; i++)
             {
