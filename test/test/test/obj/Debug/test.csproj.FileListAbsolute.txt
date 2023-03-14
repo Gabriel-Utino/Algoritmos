@@ -1,0 +1,8 @@
+D:\university\Algoritmos\test\test\test\bin\Debug\test.exe.config
+D:\university\Algoritmos\test\test\test\bin\Debug\test.exe
+D:\university\Algoritmos\test\test\test\bin\Debug\test.pdb
+D:\university\Algoritmos\test\test\test\obj\Debug\test.csproj.AssemblyReference.cache
+D:\university\Algoritmos\test\test\test\obj\Debug\test.csproj.SuggestedBindingRedirects.cache
+D:\university\Algoritmos\test\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\university\Algoritmos\test\test\test\obj\Debug\test.exe
+D:\university\Algoritmos\test\test\test\obj\Debug\test.pdb
